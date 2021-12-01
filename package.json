@@ -1,0 +1,21 @@
+{
+  "name": "batjaa-dummy-react-component",
+  "version": "0.0.2",
+  "description": "Dummy component",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batjaa/react-component.git"
+  },
+  "homepage": "https://github.com/batjaa/react-component#readme",
+
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batjaa/react-component/issues"
+  }
+}
