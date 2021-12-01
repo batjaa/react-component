@@ -3,19 +3,26 @@
   "version": "0.0.2",
   "description": "Dummy component",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "prebuild": "rm -rf dist",
+    "build": "rollup -c",
+    "postbuild": "echo Done"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/batjaa/react-component.git"
   },
   "homepage": "https://github.com/batjaa/react-component#readme",
-
   "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/batjaa/react-component/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "rollup": "^2.60.2"
   }
 }
