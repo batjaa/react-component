@@ -1,6 +1,6 @@
 {
   "name": "batjaa-dummy-react-component",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.2-alpha.1",
   "description": "Dummy component",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,11 @@
   "homepage": "https://github.com/batjaa/react-component#readme",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
+
+  "files":[
+    "dist"
+  ],
+
   "keywords": [],
   "author": "",
   "license": "ISC",
