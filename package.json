@@ -14,7 +14,8 @@
     "url": "git+https://github.com/batjaa/react-component.git"
   },
   "homepage": "https://github.com/batjaa/react-component#readme",
-  "main": "index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,7 +24,11 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.0",
+    "@types/lodash": "^4.14.177",
+    "@types/react": "^17.0.37",
     "eslint": "^8.3.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
     "rollup": "^2.60.2"
   }
 }
