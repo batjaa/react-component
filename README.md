@@ -1,0 +1,2 @@
+# react-component
+Dummy component
